@@ -1,7 +1,7 @@
 import Counter from "./Counter/Counter";
 import css from './App.module.css'
 
-{/*const colorPickerOptions = [
+const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
   { label: 'green', color: '#4CAF50' },
   { label: 'blue', color: '#2496F3' },
@@ -13,7 +13,7 @@ import css from './App.module.css'
   { label: 'violet', color: '#ee82ee' },
   { label: 'lightgreen', color: '#82eeba' },
   { label: 'orange', color: '#d6670d' },
-];*/}
+];
 
 const App = () => {
   return (
