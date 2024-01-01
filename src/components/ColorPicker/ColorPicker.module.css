@@ -1,0 +1,23 @@
+.ColorPicker {
+  width: 480px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ColorPicker__option {
+  width: 50px;
+  height: 50px;
+  margin: 16px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+
+  transition: transform 250ms linear;
+}
+
+.ColorPicker__optionActive {
+  transform: scale(1.1);
+  border: 1px solid rgb(254, 251, 254);
+}
