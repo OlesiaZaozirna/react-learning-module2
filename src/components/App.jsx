@@ -1,5 +1,6 @@
 import Counter from "./Counter/Counter";
 import css from './App.module.css'
+import Dropdown from "./Dropdown/Dropdown";
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
@@ -21,6 +22,7 @@ const App = () => {
       <h2>Practise module 2 lesson 1</h2>
       <div className={css.wrapper}>
         <Counter initialValue={10} />
+        <Dropdown/>
         </div>
     </div>
   );
